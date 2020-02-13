@@ -1,0 +1,107 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+
+background-image: url(../img/panna.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+
+
+}
+
+.centratura{
+  width: 50%;
+  margin: auto;
+  margin-top: 5%;
+
+
+
+
+
+}
+
+.sezione1{
+
+width: 1050PX;
+margin: auto;
+position: relative;
+margin-bottom: 30PX;
+
+
+
+}
+
+.box{
+
+
+  position: relative;
+
+  width: 340px;
+  height: 440px;
+
+}
+
+#cellulare{
+  background-image: url(../img/telefoni.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+
+#cuffie{
+  background-image: url(../img/cuffie.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 10px;
+}
+
+#tablet{
+  background-image: url(../img/tablet.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 350px;
+}
+
+.trenta{
+  position: absolute;
+  right: 0;
+  background-color: green;
+}
+.cinque{
+  position: absolute;
+  right: 0;
+  background-color: red;
+}
+.cuore{
+position: absolute;
+bottom: 0;
+right: 48%;
+font-size: 40px;
+opacity: 0;
+color:grey;
+
+
+}
+
+.cuore:hover{
+color: red;
+
+
+}
+.box:hover .cuore{
+opacity: 100%;
+
+
+}
