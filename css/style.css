@@ -1,5 +1,4 @@
 
-
 *{
   margin: 0;
   padding: 0;
@@ -19,11 +18,6 @@ background-size: cover;
   width: 50%;
   margin: auto;
   margin-top: 5%;
-
-
-
-
-
 }
 
 .sezione1{
@@ -32,30 +26,21 @@ width: 1050PX;
 margin: auto;
 position: relative;
 margin-bottom: 30PX;
-
-
-
 }
 
 .box{
-
-
   position: relative;
-
   width: 340px;
   height: 440px;
-
 }
 
-#cellulare{
+.cellulare{
   background-image: url(../img/telefoni.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-
-
 }
 
-#cuffie{
+.cuffie{
   background-image: url(../img/cuffie.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -65,7 +50,7 @@ margin-bottom: 30PX;
   margin-right: 10px;
 }
 
-#tablet{
+.tablet{
   background-image: url(../img/tablet.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -91,17 +76,11 @@ right: 48%;
 font-size: 40px;
 opacity: 0;
 color:grey;
-
-
 }
 
 .cuore:hover{
 color: red;
-
-
 }
 .box:hover .cuore{
 opacity: 100%;
-
-
 }
